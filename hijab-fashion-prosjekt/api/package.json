@@ -6,11 +6,20 @@
     "@redwoodjs/api": "8.9.0",
     "@redwoodjs/graphql-server": "8.9.0",
     "better-sqlite3": "^9.3.0",
-    "drizzle-orm": "latest"
+    "drizzle-orm": "0.29.3" 
   },
   "devDependencies": {
     "@types/node": "^20.10.6",
-    "drizzle-kit": "latest",
+    "drizzle-kit": "0.20.10",
     "esbuild-register": "^3.6.0"
-  }
+
+  },
+"scripts": {
+  "drizzle-kit": "drizzle-kit",
+  "db:generate": "npx drizzle-kit generate --config ./drizzle.config.ts",
+  "db:migrate": "npx drizzle-kit migrate",
+  "db:seed": "node -r esbuild-register ./scripts/seed.ts",
+  "start": "node api/keep",
+  "dev": "nodemon api/keep"
+}
 }

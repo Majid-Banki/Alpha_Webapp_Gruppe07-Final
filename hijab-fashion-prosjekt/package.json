@@ -1,47 +1,11 @@
 {
-    "name": "hijab-fashion-prosjekt",
-  "description": "E-commerce application for Hijab & Modest Fashion",
-  "version": "0.0.0",
-  
+  "name": "hijab-fashion-prosjekt",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "api",
-      "web"
-    ]
-  },
+  "workspaces": [
+    "api",
+    "web"
+  ],
   "devDependencies": {
-    "@prisma/client": "^6.18.0",
-    "@redwoodjs/core": "8.9.0",
-    "@redwoodjs/project-config": "8.9.0",
-    "@types/node": "^24.9.1",
-    "drizzle-kit": "^0.31.5",
-    "prisma": "^6.18.0"
-  },
-  "eslintConfig": {
-    "extends": "@redwoodjs/eslint-config",
-    "root": true
-  },
-  "engines": {
-    "node": "=20.x"
-  },
-  "prisma": {
-    "seed": "yarn rw exec seed"
-  },
-  "packageManager": "yarn@4.6.0",
-  "resolutions": {
-    "@storybook/react-dom-shim@npm:7.6.20": "https://verdaccio.tobbe.dev/@storybook/react-dom-shim/-/react-dom-shim-8.0.8.tgz"
-  },
-  "dependencies": {
-    "@babel/core": "^7.28.4",
-    "@listr2/prompt-adapter-enquirer": "^3.0.5",
-    "better-sqlite3": "^12.4.1",
-    "chokidar": "^4.0.3",
-    "cross-env": "^10.1.0",
-    "dotenv": "^17.2.3",
-    "drizzle-orm": "^0.44.6",
-    "execa": "^9.6.0",
-    "listr2": "^9.0.5",
-    "yargs": "^18.0.0"
+    "@redwoodjs/core": "8.9.0"
   }
 }
