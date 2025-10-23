@@ -15,14 +15,3 @@ web/public/mockServiceWorker.js
 web/types/graphql.d.ts
 api/types/graphql.d.ts
 api/src/lib/generateGraphiQLHeader.*
-
-# Yarn 4 / Corepack files
-.pnp.cjs
-.pnp.loader.mjs
-.yarn/cache
-.yarn/unplugged
-.yarnrc.yml
-yarn.lock
-
-# Standard ignore for alle Node-prosjekter
-node_modules/

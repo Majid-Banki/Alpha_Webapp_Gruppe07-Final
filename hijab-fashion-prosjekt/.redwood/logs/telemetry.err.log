@@ -1,0 +1,23 @@
+Starting log:
+ - Time: 2025-10-23T03:51:27.872Z
+ - Name: telemetry (telemetry)
+ - Command: yarn
+ - Arguments: node C:\Users\Majba\AppData\Local\Yarn\Berry\cache\@redwoodjs-cli-npm-8.9.0-d492135523-10c0.zip\node_modules\@redwoodjs\cli\dist\telemetry\send.js
+
+C:\Users\Majba\Documents\GitHub\Alpha_Webapp_Gruppe07-Final\hijab-fashion-prosjekt\.pnp.cjs:26707
+    throw new Error(`Unsupported path type: ${nodeUtils.inspect(path)}`);
+          ^
+
+Error: Unsupported path type: null
+    at NodePathFS.mapToBase (C:\Users\Majba\Documents\GitHub\Alpha_Webapp_Gruppe07-Final\hijab-fashion-prosjekt\.pnp.cjs:26707:11)
+    at NodePathFS.fsMapToBase (C:\Users\Majba\Documents\GitHub\Alpha_Webapp_Gruppe07-Final\hijab-fashion-prosjekt\.pnp.cjs:25312:19)
+    at NodePathFS.readFileSync (C:\Users\Majba\Documents\GitHub\Alpha_Webapp_Gruppe07-Final\hijab-fashion-prosjekt\.pnp.cjs:25263:42)
+    at DefaultHost.readFileSync (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\@redwoodjs-structure-npm-8.9.0-e40f411027-10c0.zip\node_modules\@redwoodjs\structure\dist\hosts.js:28:15)
+    at get text (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\@redwoodjs-structure-npm-8.9.0-e40f411027-10c0.zip\node_modules\@redwoodjs\structure\dist\ide.js:190:22)
+    at Object.getterCommon (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\lazy-get-decorator-npm-2.2.1-0fb94c2187-10c0.zip\node_modules\lazy-get-decorator\common.js:23:32)
+    at RWRouter.get (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\lazy-get-decorator-npm-2.2.1-0fb94c2187-10c0.zip\node_modules\lazy-get-decorator\legacy.js:21:29)
+    at get sf (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\@redwoodjs-structure-npm-8.9.0-e40f411027-10c0.zip\node_modules\@redwoodjs\structure\dist\ide.js:199:21)
+    at Object.getterCommon (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\lazy-get-decorator-npm-2.2.1-0fb94c2187-10c0.zip\node_modules\lazy-get-decorator\common.js:23:32)
+    at RWRouter.get (C:\Users\Majba\AppData\Local\Yarn\Berry\cache\lazy-get-decorator-npm-2.2.1-0fb94c2187-10c0.zip\node_modules\lazy-get-decorator\legacy.js:21:29)
+
+Node.js v22.21.0

@@ -1,0 +1,12 @@
+Starting log:
+ - Time: 2025-10-23T03:51:27.872Z
+ - Name: telemetry (telemetry)
+ - Command: yarn
+ - Arguments: node C:\Users\Majba\AppData\Local\Yarn\Berry\cache\@redwoodjs-cli-npm-8.9.0-d492135523-10c0.zip\node_modules\@redwoodjs\cli\dist\telemetry\send.js
+
+You can disable telemetry by:
+ - setting the 'REDWOOD_DISABLE_TELEMETRY' environment variable
+ - passing the '--no-telemetry' flag when using the CLI
+Information about Redwood telemetry can be found at:
+ - https://telemetry.redwoodjs.com
+

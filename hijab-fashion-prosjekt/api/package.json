@@ -6,10 +6,11 @@
     "@redwoodjs/api": "8.9.0",
     "@redwoodjs/graphql-server": "8.9.0",
     "better-sqlite3": "^9.3.0",
-    "drizzle-orm": "^0.29.3"
+    "drizzle-orm": "latest"
   },
   "devDependencies": {
     "@types/node": "^20.10.6",
-    "drizzle-kit": "^0.20.10"
+    "drizzle-kit": "latest",
+    "esbuild-register": "^3.6.0"
   }
 }

@@ -1,0 +1,16 @@
+# This file contains the configuration for your Redwood app.
+# This file is critical for your app to function.
+# Learn more at https://redwoodjs.com/docs/project-configuration-files#redwood-toml
+
+[web]
+  title = "Redwood App"
+  port = 8910
+  apiUrl = "/.redwood/functions"
+  includeEnvironmentVariables = []
+[api]
+  port = 8911
+[browser]
+  open = true
+  
+[experimental]
+  disableGraphQL = true
